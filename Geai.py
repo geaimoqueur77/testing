@@ -1,2 +1,5 @@
-Print("astrid galère sur les 6b")
+print("astrid gère sur les 6b")
 print("mais genre vraiment")
+
+
+py
