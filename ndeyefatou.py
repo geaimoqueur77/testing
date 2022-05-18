@@ -1,1 +1,0 @@
-print("ndeye fatou")
