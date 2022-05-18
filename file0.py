@@ -1,5 +1,4 @@
-import nilearn
 import numpy as np
-import nilearn
+from nilearn import *
 
 
