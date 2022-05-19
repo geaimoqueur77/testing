@@ -30,3 +30,23 @@ print(Count)
 print(len(Count))
 
 print(Count[len(Count)-1])
+
+print(Count[-1])
+
+Liste1 = [3, "dinosaure"]
+Pancakes = ["okcool"]
+Crepes = ["noncnul"]
+
+
+Megaliste = [Liste1, Pancakes, Crepes]
+print(Megaliste)
+
+print(Megaliste[0][1])
+
+Liste2 = [3,2,1]
+Liste2.sort()
+print(Liste2)
+
+Liste1.pop(2)
+print(Liste1)
+
