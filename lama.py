@@ -1,5 +1,11 @@
-test=3
-print(type(test))
 
-test="lama"
-print(type(test))
+
+x=1
+y=2
+
+print(x+y)
+print(y-x)
+print(x*y)
+print(y/x)
+print(y%x)
+print(y**x)
