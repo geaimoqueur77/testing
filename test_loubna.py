@@ -4,7 +4,9 @@ y=6
 a=x+y
 b=x-y
 c=x*y
-d=x/y
+if y != 0:
+    d=x/y
+
 m=x%y
 
 print(a)
