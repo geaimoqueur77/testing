@@ -1,1 +1,1 @@
-Print("jade")
+print("jade")
