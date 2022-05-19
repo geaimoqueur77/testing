@@ -1,14 +1,17 @@
-test=3
-print(test)
+x=5
+y=6
 
-print(type(test))
+a=x+y
+b=x-y
+c=x*y
+d=x/y
+m=x%y
 
-test=[1,2,3]
-print(test)
+print(a)
+print(b)
+print(c)
+print(d)
+print(m)
 
-print(type(test))
 
-test="loubna"
-print(test)
 
-print(type(test))
