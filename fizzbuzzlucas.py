@@ -6,14 +6,15 @@ def fizzbuzz(ent1, ent2) :
     a = ent1
     print("C'est parti : ")
     while a <= ent2 : 
-        print(a)
         if (a%3 == 0) and (a%5 == 0) :
-            print("fizzbuzz")
+            print(a , ": fizzbuzz")
         else :
             if a%3 == 0 :
-               print("fizz")    
+               print(a, " : fizz")    
             elif a%5 == 0 :
-                print("buzz")
+                print(a , " : buzz")
+            else :
+                print(a)
         a +=1
 
         
