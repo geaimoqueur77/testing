@@ -8,4 +8,3 @@ while i<10 :
     a = not(a) 
     print(a)
     i += 1
-
