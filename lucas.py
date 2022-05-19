@@ -1,3 +1,4 @@
+
 nom = "lucas"
 
 def backwards( nom ) :
@@ -10,4 +11,8 @@ def backwards( nom ) :
 
 backwards(nom)
 
-    
+a = 2
+b = 3
+i = 0
+
+
