@@ -1,4 +1,5 @@
 from numpy import sort
+from sqlalchemy import true
 
 
 Luan = list()
@@ -47,7 +48,7 @@ print(el)
 
 #print(globals()), affiche toute les variables 
 
-a = [3,2,1]
+a = [3,2,1,4,9,3]
 print(a)
 print(a[-1])
 
@@ -63,3 +64,10 @@ print(sort(b))
 #Supprime l'élément d'index 0
 bigbang.pop(0)
 print(bigbang)
+
+print(sorted(a, reverse=True))
+
+
+
+a.sort(reverse=True)
+print(a)
