@@ -51,7 +51,7 @@ print(Notes)
 Mon_age = ["J'ai",20,"ans"]
 print(Mon_age)
 
-Compte_19 = list(range(1,20))
+Compte_19 = list(range(1,20)) #ceci permet de générer une liste rempli de nombres de 1 à 19
 print(Compte_19)
 
 compte_0_10 = list(range(0,50,3))
@@ -71,13 +71,13 @@ print(pan)
 
 Mega = [Com_on_veut,pan]
 
-print(Mega[0][1])
+print(Mega[0][1]) #ceci nous permet d'accéder aux éléments de la méga liste. On accède à la liste 0 et à sont 1er élément
 
 Nouveliste = [3,2,1]
 print(Nouveliste)
-Nouveliste.sort()
+Nouveliste.sort() #cette fonction va trier la liste, elle ne renvoie pas de résultat
 print(Nouveliste)
 
-Com_on_veut.pop(0)
+Com_on_veut.pop(0) # cette fonction sert à retirer un élément d'une liste
 print(Com_on_veut)
 
