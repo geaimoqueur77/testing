@@ -1,3 +1,6 @@
+from logging.config import listen
+
+
 ghali = list()
 print(ghali)
 ghali.append("surf")
@@ -18,19 +21,21 @@ print(M1)
 print(M2)
 print(M3)
 print(M4)
-Longueur = len(M4)
+Longueur = len(M4)   #longueur liste
 print(Longueur)
-last = M4[len(M4) - 1]
+last = M4[len(M4) - 1] #dernier élément de la liste
 print (last)
 PP = ["dino", 3]
 PPP= ["pancake"]
-M = [M1,M2,M3,M4]
+M = [M1,M2,M3,M4]    #liste de listes
 AS = [PP,PPP]
 print (M)
 print (AS)
-print(AS[0][1])
+print(AS[0][1])     #choisir un élément d'une liste de listes
 ORG = [3,2,1]
-ORG.sort()
+ORG.sort()          #trier liste
 print (ORG)
-PP.pop(0)
-print (PP)
+PP.pop(0)           #retirer élément liste
+print (PP) 
+
+
