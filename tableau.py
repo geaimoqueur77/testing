@@ -31,3 +31,4 @@ print("En miniscules:",df.columns.__str__().lower())
 print(df.size)#quantaite d'informations contenues dans le tableau
 print(df.shape)#dimensions du tableau
 
+tableau.columns.set_;names['toto','tata','titi']
