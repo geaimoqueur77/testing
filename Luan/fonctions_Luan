@@ -1,0 +1,23 @@
+from numpy import transpose
+import pandas as pd
+from pandas import read_csv
+
+df = pd.read_csv('Luan/Exercice1.csv', header = 0, index_col = 0, sep=',', decimal='.')
+print(df)
+
+prenom = "Luan"
+nom = "Dechery"
+print("je m'appelle",prenom,nom)
+
+print(df.describe())
+
+print("--------------------------------")
+
+df_t=transpose(df)
+print(df_t)
+print("--------------------------------")
+
+print(df_t.describe())
+
+df.sort_values(by=['taille'])
+print(df)
