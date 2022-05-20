@@ -1,5 +1,3 @@
-from numpy import sort
-
 
 Nathanael=list() #création d'une liste vide
 print(Nathanael)
@@ -12,7 +10,7 @@ Courses=["Oeufs","Viande","Pâtes","Légumes"]
 print(Courses)
 Courses.append("Lait") 
 print(Courses)
-Stephane=sort([18,13,11,18])# 1_Trier la liste dans l'ordre croissant
+Stephane=[18,13,11,18] 
 print(Stephane)
 
 ListMixt=["J'ai",21,"ans"]
@@ -43,3 +41,7 @@ print(LstChfr)
 
 Dino.pop(0) #Suppression d'un élément d'une liste
 print(Dino)
+
+miguel=[12,5,845,41,2]
+miguel.sort(reverse=True)
+print(miguel)
