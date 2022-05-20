@@ -21,3 +21,10 @@ print("Président de la république :", prenom, nom)
 data.sort_values(by = ['age'])
 
 print(data.describe())
+
+def Moyenne(arg1, arg2, arg3):
+    moyenne = (arg1 + arg2 +arg3)/3
+
+    return moyenne
+
+print(Moyenne(10,18,15))
