@@ -1,3 +1,4 @@
+
 Nathanael=list() #création d'une liste vide
 print(Nathanael)
 
@@ -9,7 +10,7 @@ Courses=["Oeufs","Viande","Pâtes","Légumes"]
 print(Courses)
 Courses.append("Lait") 
 print(Courses)
-Stephane=[12,13,15,18]
+Stephane=[18,13,11,18] 
 print(Stephane)
 
 ListMixt=["J'ai",21,"ans"]
@@ -18,6 +19,7 @@ ZeA19=list(range(20)) #afficher de 0 à 19
 print(ZeA19)
 ZeA50_3=list(range(0,50,3)) #0 à 50 en 3 par 3
 print(ZeA50_3)
+
 longueurZeA50= len(ZeA50_3) #longueur de la liste
 print(longueurZeA50)
 LstEl=ZeA50_3[longueurZeA50-1] #dernier élément de la liste
@@ -27,16 +29,19 @@ Dino=["Dinosaure",3]
 print(Dino)
 Pncks=["Pancakes",32]
 print(Pncks)
-
-Megaliste=[Dino,Pncks]
+Megaliste=[Dino,Pncks]#Liste contenant plusieurs listes
 print(Megaliste)
+
 Element=Megaliste[0][1] #2e élément de la première liste
 print(Element)
 
 LstChfr=[3,2,1]
-LstChfr.sort()
+LstChfr.sort()#2_Trier la liste dans l'ordre croissant
 print(LstChfr)
 
 Dino.pop(0) #Suppression d'un élément d'une liste
 print(Dino)
 
+miguel=[12,5,845,41,2]
+miguel.sort(reverse=True)
+print(miguel)
