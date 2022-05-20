@@ -35,6 +35,7 @@ print(toma[-1])
 bigbang = ["dino", 3]
 orange = ["jus d'orange"]
 
+#Créer une liste composé de listes
 megaliste = [bigbang, orange]
 print(megaliste)
 
@@ -44,19 +45,21 @@ el = megaliste[0][1]
 
 print(el)
 
-#print(globals())
+#print(globals()), affiche toute les variables 
 
 a = [3,2,1]
 print(a)
 print(a[-1])
 
+#Trie la liste "a" en ordre croissante
 print(sort(a))
 print(sort(a)[-1])
 
+#Trie la liste "b" en ordre alphabétique
 b = ["cc","bb","c", ""]
 print(b)
-
 print(sort(b))
 
+#Supprime l'élément d'index 0
 bigbang.pop(0)
 print(bigbang)
