@@ -5,6 +5,7 @@ from pandas import read_csv
     #Importer un jeu de données dans une variable
 data=pd.read_csv('Exercice1.csv', header=0, index_col=0,sep=',', decimal='.')
 print(data)
+#data.sort_values(by=age) si pas ordonné encore
 
     #Pour résumer les données statistiques de jeu de données
 print(data.describe()) 
