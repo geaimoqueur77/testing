@@ -27,6 +27,7 @@ print(listea19)
 listea19 = list(range(0,50,3))
 print(listea19)
 
+
 longueurliste = len(listea19)
 print(longueurliste)
 
