@@ -1,7 +1,7 @@
-jade = list()
-print(jade) 
+jade = list() #creer la liste
+print(jade) #montrer la liste
 
-jade.append ("dodo")
+jade.append ("dodo") #ajouter un element à la liste
 print(jade)
 
 repas = ["fruit", "legume"] # Liste de mots
@@ -16,7 +16,7 @@ print(nutrition)
 print(activite)
 print(ville)
 
-print(len(act))
+print(len(act)) #longeur de la lste
 act[19]
 
 
@@ -25,16 +25,16 @@ print(nouvelle)
 deuxieme = ["pancake"]
 print(deuxieme)
 
-MegaListe = [nouvelle, deuxieme]
+MegaListe = [nouvelle, deuxieme] #lier les deux listes
 print(MegaListe)
 
-element = MegaListe[0][1]
+element = MegaListe[0][1] #voir la 1e liste le 1e element
 print(element)
 
 chiffre = [3,2,1]
 print(chiffre)
 
-chiffre.sort()
+chiffre.sort() #trier les chiffres (1,2,3)
 print(chiffre)
 
 nouvelle.pop (0) #supprime le mot dino
