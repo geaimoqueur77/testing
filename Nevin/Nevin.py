@@ -1,6 +1,6 @@
-nevin = list()
+nevin = list() # Création de liste 
 print(nevin)
-nevin.append("Football")
+nevin.append("Football") #Ajoutr l'élement football à la liste
 print(nevin)
 
 nevin.append(1)
@@ -10,13 +10,13 @@ print(nevin)
 
 repas= ["pizza", "jus","glace"]
 print(repas)
-repas.append(1)
+repas.append(1) # Ajouter l'élement 1 à la liste repas 
 print(repas)
 
 
 # Liste de 0 à 19
 
-listea19 = list(range(20))
+listea19 = list(range(20)) #Suite de nombre de 0 à 19 saut de 1 
 print(listea19)
 
 3# dexième essaie 
@@ -34,7 +34,7 @@ print(longueurliste)
 element = listea19[16]
 print(element)
 
-elm = listea19[-1]
+elm = listea19[-1] #Trouver une elements de la liste 
 print(elm)
 
 listdi = ["Dino", (3)]
@@ -51,8 +51,8 @@ print(ele)
 
 newlist = [3,2,1]
 print(newlist)
-newlist.sort()
+newlist.sort()  # Trier des éelements
 print(newlist)
 
-listdi.pop(0)
+listdi.pop(0) 
 print(listdi)
