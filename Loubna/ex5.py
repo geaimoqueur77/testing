@@ -6,4 +6,7 @@ def diag(tableau):
     return tableau
     
 tableau = [[1, 2, 3], [4, 5, 6], [7, 8, 9]]
-print(diag(tableau))
+
+print("tableai initial: \n",tableau)
+print("resultat:\n" ,diag(tableau))
+

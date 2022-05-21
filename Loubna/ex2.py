@@ -1,11 +1,11 @@
-def filtrer(mot, lettres):
-        var = " "
-        for lettre in mot:
-            if lettre not in lettres:
-                var =var+lettre
-        return var
+def chiff(nombre, chiffres):
+        resultat=""
+        for i in nombre:
+            if i not in chiffres:
+                resultat +=i #variable contient les numbres qui ne sont pas dans la liste chiffres
+        return resultat
 
 
-mot = "loubna"
-lettres = ["e", "i", "a", "y", "u", "o"]
-print(filtrer(mot, lettres))
+nb = "123456"
+chiffres= ["1","2"]
+print(chiff(nb, chiffres))

@@ -1,7 +1,10 @@
-def puissance(nb, exp):
-    return nb ** exp
+def exposant(nb,exp):#définir la fonction
+    return nb**exp #itération de la fonction
 
-exp = 3
+exp=3
+for i in range(1,11):#définir une boucle qui commence par 1 jusqu'à 11
+    print(exposant(i,exp))#appel à la fonction exposant
 
-for i in range(1, 11):
-    print(puissance(i, exp))
+
+
+    

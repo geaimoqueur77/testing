@@ -1,9 +1,7 @@
-def inf():
-    while True:
-        mot = input("ecrire \"stop\" pour sortir")
-        if mot != "stop":
-            print(mot)
-        else:
-            break
-    print("sortie")
-inf()
+
+def mot() :
+    mot = str(input("entrer stop pour arreter : "))
+    while mot != "stop" :        
+        mot = str(input("entrer stop pour arreter : "))#redemander d'entrer un mot
+    print("Fin: sortir de la boucle")
+mot()
