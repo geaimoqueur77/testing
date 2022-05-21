@@ -8,4 +8,5 @@ def chiff(nombre, chiffres):
 
 nb = "123456"
 chiffres= ["1","2"]
-print(chiff(nb, chiffres))
+print("le nb est :" ,nb)
+print("la sortie est :", chiff(nb, chiffres))

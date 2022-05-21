@@ -6,4 +6,6 @@ def multiple(intervalle, nb):
     return multiples
 
 intervalle=[1,2,3,4,5,6]
-print(multiple(intervalle,2))
+print("l'intervalle est: ",intervalle)
+print("on va sortir les chiffres multiples par 2 :")
+print("la sortie est :", multiple(intervalle,2))
