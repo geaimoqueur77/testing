@@ -15,4 +15,4 @@ def retire_voyelles (mots, lettres):
 
 
 voyelles = ["a", "e", "i", "o", "u", "y"]
-retire_voyelles ("Salut je m'appelle Fatou", voyelles)
+retire_voyelles ("Salut je m'appelle Fatou", voyelles) 

@@ -12,4 +12,5 @@ def multiple(intervalle, facteur):
       multiples.append(i)
   return multiples
 
+
 print(multiple(range(2, 31), 2))

@@ -5,7 +5,7 @@ Created on Sat May 21 23:56:37 2022
 @author: HP
 """
 
-
+ 
 def exposant(nbre,exposant) :
    
   
