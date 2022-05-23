@@ -7,15 +7,13 @@ def Fonction1(a,b) :
 Fonction1(10,3)
 
 #Exo 1
-#input(x)
-    #if x == "stop":
-        #stopper l'execution
+x=1
+print("ecrire 'stop' pour cesser l'execution")
+while x != "stop":
+    x=input()
 
-#Exo 2
 
-#Exo 3 
 
-#Exo 4
 
 
 
