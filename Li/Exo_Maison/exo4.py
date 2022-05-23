@@ -4,19 +4,19 @@
 # alors la fonction doit afficher que c'est moins, et vice versa. 
 # Le jeu s'arrête lorsque l'utilisateur aura deviné le bon chiffre.
 
-import random
+def deviner():
+    import random
+    num = random.randint(0,9)
+    i = 1
+    while i == 1:
+        ans = int(input("Devinez-Vous: "))
+        if ans > num:
+            print("too big")
+        elif ans < num:
+            print("too small")
+        else:
+            print("Deviner Juste!!!")
+            break
 
-num = random.randint(0,9)
-print(num)
-
-i = 1
-while i == 1:
-    ans = int(input("Devinez-Vous: "))
-    if ans > num:
-        print("too big")
-    elif ans < num:
-        print("too small")
-    else:
-        print("Deviner Juste!!!")
-        break
+deviner()      
 
