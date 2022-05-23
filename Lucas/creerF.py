@@ -6,22 +6,22 @@ def CarteEtu( nom, prenom, num) :
 
     #On definit la fonction moyenne a l'interieur de CarteEtu()
     def Summary():
+        print('Combien de notes ? ')
+        cmb = int(input())
         i = 0
         notes = list()
-        while i <5 : 
+        somme = 0
+        print('Rentrez vos notes : ')
+        while i <cmb : 
             print('Rentrez votre note ', i+1, ' : ')
             notes.append(int(input()))
+            somme = somme + notes[i]
             i +=1
-        j = 0
-        somme = 0
         notes.sort()
-        while j < 5 :
-            somme = somme + notes[j]
-            j +=1
-        mediane = notes[3]
-        moyenne = somme / 5
+        mediane = notes[cmb // 2]
+        moyenne = somme / cmb
         return moyenne, mediane
-    print('Rentrez vos notes : ')
+    
     
 
     #On appelle moyenne dans un print, à l'interieur de CarteEtu()
