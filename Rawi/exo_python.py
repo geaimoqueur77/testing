@@ -44,7 +44,7 @@ print("Exercice 4")
 
 def jeu():
     bon=random.randint(0,9)
-    win=False
+    win=False                                   #Tant que Win n'est pas True, le jeu continue
     while win==False:
         dem = int(input())
         if dem>bon:
@@ -54,5 +54,31 @@ def jeu():
                 print ("Le chiffre est plus grand")   
             else:
                 print("Win")
-                win = True
+                win = True                     #Win devient True uniquement sous la condition dem == bon
 jeu()
+
+# -----------{ Exercice 5 }-----------
+
+print("Exercie 5")
+
+Tab=[[1,2,3],[1,2,3],[1,2,3]] 
+
+def Diag ():
+    x=0
+    while x<len(Tab):                   # x augment jusqu'à avoir fait tout le tableau
+        Tab[x][x]="diag"                
+        x+=1 
+    print(Tab)
+
+Diag()
+
+
+print("Exercie 5bis")
+def PasDiag (Tab):
+    for i in range (len(Tab)):
+        for j in range (len(Tab)):
+           if (i!=j):
+                Tab[i][j]="Pas Diag"
+    print(Tab)
+
+print(PasDiag(Tab))
