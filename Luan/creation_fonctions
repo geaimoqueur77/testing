@@ -1,0 +1,14 @@
+def CarteEtu (nom, prenom, numetu):
+    print("---Carte etudiante---")
+    print("nom:",nom)
+    print("prenom:",prenom)
+    print("N. étudiant:",numetu)
+
+CarteEtu("Dechery","Luan", 000000)
+
+def Moyenne(n1, n2, n3, n4, n5):
+    m = (n1+n2+n3+n4+n5)/5
+    print("Votre moyenne est de :",m ,"/5.  Bien joué !")
+
+
+Moyenne(5,5,5,5,5)
