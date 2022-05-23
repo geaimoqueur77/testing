@@ -2,10 +2,9 @@
 def multiples(nbr, min, max):
     l = []
     for i in range(min, max+1):
-        print(i)
         if i % nbr == 0:
             l.append(i)
     print(l)
 
 
-multiples(2, 1, 10)
+multiples(2, 1, 30)
