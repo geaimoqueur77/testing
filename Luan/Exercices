@@ -13,15 +13,15 @@ print(puissance(4,2))
 #Exercice 1
 
 
-def stop():
-    x=''
-    i=0
-    while x != "stop":
-        x=input()
-        i+=1
-    print(i)
+#def stop():
+#    x=''
+#    i=0
+#    while x != "stop":
+#        x=input()
+#        i+=1
+#    print(i)
 
-stop()
+#stop()
 
 
 print('----------------------')
@@ -65,3 +65,38 @@ def diagonale(matrice, diag):
 mat = [[1,2,3],[4,5,6],[7,8,9]]
 diag = 'diag'
 print(diagonale(mat,diag))
+
+
+n= 10
+
+def factorielle(n):
+    i=0
+    while i<n:
+        n = n * (n-1)
+        i +=1
+    return(n)
+
+print(factorielle(4))
+
+    
+
+
+
+
+#FizzBuzz
+
+list2 = list(range(20))
+print(list2)
+
+def Fizzbuzz(liste):
+    for i in liste:
+        if i%3== 0 and i%5==0:
+            print('FizzBuzz')
+        elif i%3== 0:
+            print('Fizz')
+        elif i%5== 0:
+            print('Buzz')
+        else:
+            print(i)
+
+Fizzbuzz(list2)
