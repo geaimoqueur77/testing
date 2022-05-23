@@ -7,14 +7,16 @@
 # avec y inclus.
 
 
-from curses.ascii import isalpha
-import re
+def supr_voye():
+        from curses.ascii import isalpha
+        import re
+        word = input("taper un mot ici : ")
+        if word.isalpha() == True :
+                wordlower = word.lower()
+                print('Convertir toutes les lettres en minuscules : ',wordlower)
+                newword = re.sub(r'a|e|i|o|u|y','',wordlower)
+                print('supprimer toutes les voyelles : ',newword)
+        else:
+                print("Les caractères autres que les lettres ne sont pas autorisés")
 
-word = input("taper un mot ici : ")
-if word.isalpha() == True :
-        wordlower = word.lower()
-        print('Convertir toutes les lettres en minuscules : ',wordlower)
-        newword = re.sub(r'a|e|i|o|u|y','',wordlower)
-        print('supprimer toutes les voyelles : ',newword)
-else:
-        print("Les caractères autres que les lettres ne sont pas autorisés")
+supr_voye()
