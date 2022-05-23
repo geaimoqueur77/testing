@@ -19,7 +19,10 @@ def fizzbuzz():
             if t == 0 and r!=0:
                 print("Buzz")
             if t == 0 and r == 0:
-                print("FizzBuzz")   
+                print("FizzBuzz")
+                break
+        else:
+            print("il faut choisi un nobre entre 1 et 20")   
 fizzbuzz()
 
             
