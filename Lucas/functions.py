@@ -21,3 +21,4 @@ print("Président de la république :", prenom, nom)
 data.sort_values(by = ['age'])
 
 print(data.describe())
+
