@@ -6,11 +6,11 @@ data = pd.read_csv("C:/Users/bourh/OneDrive/Bureau/CoursL3/Stage/Exercice1.csv",
 # df = pd.DataFrame(data)
 
 # print(data.describe())  # Résume les données
-# print("Somme :", np.sum(data))          # Somme
-# print("Moyenne :", np.mean(data.age))       # Moyenne
-# print("Mediane :", np.median(data))     # Médiane
-# print("Variance :", np.var(data))       # Variance
-# print("Ecart-type: ", np.std(data))     # Ecart-type
-# print("Percentile: ", np.percentile(data, 10))  # Percentile
+print("Somme :", np.sum(data))          # Somme
+print("Moyenne :", np.mean(data.age))       # Moyenne
+print("Mediane :", np.median(data.age))     # Médiane
+print("Variance :", np.var(data.age))       # Variance
+print("Ecart-type: ", np.std(data.age))     # Ecart-type
+print("Percentile: ", np.percentile(data.age, 10))  # Percentile
 
-print(stats.mode(data))
+#print(stats.mode(data))
