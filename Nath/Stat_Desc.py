@@ -30,3 +30,4 @@ print(donnees.describe())
 
 #Afficher le plus gros effectif de la variable
 print(stats.mode(donnees))
+
