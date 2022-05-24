@@ -9,3 +9,4 @@ plt.ylabel('Taille', family='serif',color='r',weight='normal', size = 16,labelpa
 plt.title("Tailles en fonction de l'age", fontdict={'family': 'serif', 'color' : 'darkblue','weight': 'bold','size': 18})
 plt.grid(True)
 plt.show()
+
