@@ -4,6 +4,16 @@ import pandas as pd
 from pandas import read_csv
 from turtle import color
 import matplotlib.pyplot as plt
+from scipy.stats import shapiro
+from scipy. stats import pearsonr
+import metrics
+import r2
+from scipy. stats import pearsonr
+from scipy. stats import spearmanr
+from scipy.stats import chi2_contingency
+from scipy.stats import ttest_ind
+from scipy.stats import mannwhitneyu
+from scipy.stats import wilcoxon
 
 #importation des données
 df = pd.read_csv('C:\\Users\\HP\\Desktop\\Exercice1.csv', header = 0, sep = ',', decimal = '.')
@@ -52,4 +62,10 @@ plt.show()
 #Trivial pousuite
 plt.pie(df['taille'])
 plt.show()
+
+# Arrondir la moyenne des tailles
+print(round(numpy.mean(df['taille']))) 
+
+# Coefficient de détermination (à quel point le modèle explique les données)
+#r2 = metrics.r2_score(donnees_reelles, donnees_predites)
 
