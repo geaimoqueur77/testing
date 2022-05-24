@@ -10,8 +10,9 @@ data = pd.read_csv("C:/Users/bourh/OneDrive/Bureau/CoursL3/Stage/Exercice1.csv",
 
 plt.hist(data, color='purple') # Créer un histogramme
 plt.grid(True)
-plt.ylabel("Taille")
-plt.xlabel("Âge")
+plt.title("Histogramme")
+plt.ylabel("Âge")
+plt.xlabel("Taille")
 plt.show()
 
 # plt.scatter(data, data2) # Créer le nuage
