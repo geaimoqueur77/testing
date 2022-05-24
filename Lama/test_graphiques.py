@@ -3,6 +3,9 @@ from pandas import read_csv
 data=pd.read_csv('C:\\Users\\Lama\MonProjet\\Exercice1.csv', header=0, index_col=0 , sep=',' , decimal='.')
 print(data)
 
+
+
+
 #-------------------#
 
 
