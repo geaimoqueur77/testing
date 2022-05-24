@@ -22,3 +22,4 @@ print ("Le résultat est : ", y)
 
 z = calcul_exposant(25,5)
 print ("Le résultat est : ", z)
+
