@@ -19,4 +19,8 @@ y=np.array(data['taille'])
 ps = pearsonr(x,y)
 print("Test de Pearson: ",ps)
 print("'''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''")
+
 # Test de Spearman
+from scipy. stats import spearmanr
+print(spearmanr(data))
+print("'''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''")
