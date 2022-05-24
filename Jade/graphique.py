@@ -9,7 +9,7 @@ data = pd.red_csv('C:\\Users\\Yvan\\Documents\\python\\Exercice1(1).csv', header
 print(data)
 
 plt.plot(data,color ='g',linewidth =25) #Afficher le graphique
-plt.title ('Graphique') #titre
+plt.title ('Graphique') #titre 
 plt.xlabel ('taille') 
 plt.ylabel ('age')
 plt.grid(True) #Afficher la grille ou non
