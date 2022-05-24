@@ -21,6 +21,21 @@ print (numpy.std(df['age']))
 #quartiles age
 print (numpy.percentile(df['age'], 50))
 
+
+#somme taille
+print (numpy.sum(df['taille']))
+#moyenne taille
+print (numpy.mean(df['taille']))
+#médiane taille
+print (numpy.median(df['taille']))
+#varience taille
+print (numpy.var(df['taille']))
+#ecart-type taille
+print (numpy.std(df['taille']))
+#quartiles taille
+print (numpy.percentile(df['taille'], 50))
+
+
 #Mode
 print(stats.mode(df))
 
