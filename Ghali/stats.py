@@ -2,6 +2,8 @@ import numpy
 from scipy import stats
 import pandas as pd
 from pandas import read_csv
+from turtle import color
+import matplotlib.pyplot as plt
 
 #importation des données
 df = pd.read_csv('C:\\Users\\HP\\Desktop\\Exercice1.csv', header = 0, sep = ',', decimal = '.')
@@ -38,4 +40,16 @@ print (numpy.percentile(df['taille'], 50))
 
 #Mode
 print(stats.mode(df))
+
+#Courbe simple
+plt.plot(df)
+plt.show()
+
+#Histogramme
+plt.hist(df)
+plt.show()
+
+#Trivial pousuite
+plt.pie(df['taille'])
+plt.show()
 
