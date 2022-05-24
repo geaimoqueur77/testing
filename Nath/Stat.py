@@ -1,6 +1,8 @@
+from os import stat
 import pandas as pd
 from pandas import read_csv
 import numpy as np
+from scipy import stats
 
     
 donnees=pd.read_csv('C:\\Users\\33669\\Documents\\testing\\Nath\\Exercice1.csv', header=0,sep=',', decimal='.')
@@ -26,4 +28,5 @@ print(np.percentile(donnees,25))
 #Resume de toutes les donnees statistiques du jeu de donnees
 print(donnees.describe())
 
-
+#Afficher le plus gros effectif de la variable
+print(stats.mode(donnees))
