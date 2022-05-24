@@ -24,3 +24,8 @@ print("'''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''")
 from scipy. stats import spearmanr
 print(spearmanr(data))
 print("'''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''")
+
+# Test du Chi-Deux
+from scipy.stats import chi2_contingency
+print("Chi-Deux: "  ,chi2_contingency(data))
+print("'''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''")
