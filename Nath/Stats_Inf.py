@@ -36,8 +36,17 @@ print(chi2_contingency(donnees["age"], donnees["taille"]))
 
 #Les trois tests nous montrent qu'il y a un poucenetage élevé de correlation
 
+#TEST PARAMETRIQUES
+#TAvec student
+from scipy.stats import ttest_ind 
+print(ttest_ind(donnees["age"],donnees["taille"]))
 
+#Avec ANOVA (test de la variance)
+from scipy.stats import f_oneway
+print(f_oneway(donnees["age"],donnees["taille"]))
 
-
-
+#TEST NON PARAMETRIQUE
+#Avec Mann-Whithney
+from scipy.stats import mannwhitneyu
+print(mannwhitneyu(donnees["age"],donnees["taille"]))
 
