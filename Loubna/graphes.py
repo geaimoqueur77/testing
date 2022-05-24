@@ -4,6 +4,8 @@ from pandas import read_csv
 data=pd.read_csv('C:\\Users\\loubn\\Desktop\\tutu\Exercice1.csv', header=0, sep=',', decimal='.')#importer la base
 print(data)
 print(data.describe())
+
+
 #----------------------------------
 from matplotlib import pyplot as ply
 ply.plot(data, color='red', marker='o', markersize=5)
