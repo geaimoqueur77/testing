@@ -19,6 +19,9 @@ def Fizzbuzz(y):
           print("Le nombre",i, "est un Fizz")
         elif i % 5 == 0:
           print("Le nombre",i, "est un Buzz")
+        else:
+          print (i)
+
     
 
-print(Fizzbuzz(range (1,21)))
+Fizzbuzz(range (1,21))

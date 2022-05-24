@@ -2,10 +2,10 @@ from turtle import color
 import matplotlib.pyplot as plt
 import pandas as pd
 from pandas import read_csv
+import random
 
 
 data = pd.read_csv('C:\\Users\\HP\\Desktop\\Exercice1.csv', header = 0, index_col = 0, sep = ',', decimal = '.')
-
 
 plt.plot(data,color = 'r', linewidth=25)
 plt.title("Priorité de Ghali ")
@@ -18,6 +18,3 @@ arrowprops={'facecolor':'orange', 'shrink':0.05} )
 
 
 plt.show()
-
-
-
