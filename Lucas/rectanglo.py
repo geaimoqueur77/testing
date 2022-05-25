@@ -10,21 +10,29 @@ def carre (dim) :
         chain = ''
     print(' ' + '--'* dim +'  ' )
     
-def rectangle (dim) : 
-    print(' ' + '__'* dim +'  ' )
-    for j in range(dim*2):
+def rectangle (dim, direction) : 
+    
+    if direction == 'horizontale' : 
+        vert = 1
+        horiz = 2
+    else :
+        vert = 2
+        horiz = 1
+
+    print(' ' + '__'* dim*horiz +'  ' )
+    for j in range(dim*vert):
         chain = "|"
-        for i in range(dim) : 
+        for i in range(dim*horiz) : 
             chain += '**'
-            if i == dim - 1 :
+            if i == (dim*horiz) -1 :
                 chain += '|'
         print(chain)
         chain = ''
-    print(' ' + '--'* dim +'  ' ) 
+    print(' ' + '--'* dim*horiz +'  ' ) 
 
 a = int(input())
 carre(a)
-rectangle(a)
+rectangle(a,'verticale')
 
 
     
