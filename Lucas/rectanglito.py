@@ -6,7 +6,7 @@ def affiche():
     x.setpos(-68, 95)    
     x.down()    
     x.color('red')    
-    x.write("BIEN JOUE", font=( 
+    x.write("BIEN JOUE BG", font=( 
       "Arial", 60, "bold"))  
 
 def carremorray(): 
@@ -15,14 +15,15 @@ def carremorray():
     x.left(0) 
     x.forward(150) 
     x.left(90) 
-    x.forward(150)
+    x.forward(75)
     x.left(90) 
     x.forward(150)
     x.left(90) 
-    x.forward(150)
+    x.forward(75)
     x.end_fill() 
     affiche()
 
  
 
 carremorray()  
+turtle.mainloop()
