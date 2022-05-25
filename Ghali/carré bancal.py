@@ -16,5 +16,5 @@ def rectangle(longueur, largeur):
         elif (not i ==  longueur - 1) :
             print ("|","  "*largeur,"|")   
 
-rectangle(3,6)
+rectangle(0,6)
 
