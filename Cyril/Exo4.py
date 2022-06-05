@@ -3,10 +3,14 @@
 # =============================================================================
 import random as rd
 
-def plus_ou_moins ():
+
+def plus_ou_moins():
     x = str(rd.randint(0, 9))
-    c = 0 # Compteur de coups
+    c = 1  # Compteur de coups
+    lst = ['0', '1', '2', '3', '4', '5', '6', '7', '8', '9']
     trial = input("Entrez une valeur entre 0 et 9 : ")
+    if trial != all(lst):
+        trial = input("Entrez une valeur entre 0 et 9 : ")
     while trial != x:
         c += 1
         if trial > x:
@@ -15,5 +19,6 @@ def plus_ou_moins ():
             trial = input("Plus")
     else:
         print("Gagné en " + str(c) + " coups ! La valeur était " + x)
-    
+
+
 plus_ou_moins()

@@ -2,13 +2,13 @@ import numpy as np
 import pandas as pd
 from scipy import stats
 
-data = pd.read_csv('../Exo_Python/3_Exploration_données/Données.csv')
+data = pd.read_csv('../../../Exo_Python/3_Exploration_données/Données.csv', sep=",", decimal=".")
 
 # x = data.iloc[:,0]
 # y = data.iloc[:,1]
 
-x = data['age']
-y = data['taille']
+x = data['age']     # Récupère les données de la colonne associée à la variable 'âge'
+y = data['taille']  # Récupère les données de la colonne associée à la variable 'taille'
 
 # ---------- Moyenne ----------
 
